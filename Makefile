@@ -18,6 +18,6 @@ build-release:
 	GOOS=linux   GOARCH=amd64 go build -o release/linux-amd64/sifaka main.go
 
 package-release:
-	tar -czvf release/pudl.osx-amd64.tar.gz --directory=release/osx-amd64/ sifaka
-	#tar -czvf release/pudl.osx-arm64.tar.gz --directory=release/osx-arm64/ sifaka
-	tar -czvf release/pudl.linux-amd64.tar.gz --directory=release/linux-amd64/ sifaka
+	tar -czvf release/sifaka.osx-amd64.tar.gz --directory=release/osx-amd64/ sifaka
+	#tar -czvf release/sifaka.osx-arm64.tar.gz --directory=release/osx-arm64/ sifaka
+	tar -czvf release/sifaka.linux-amd64.tar.gz --directory=release/linux-amd64/ sifaka
