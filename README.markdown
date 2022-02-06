@@ -10,9 +10,7 @@ It will notify You 29 days before certificate will expire. (It will repeat notif
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Propithecus_coquereli_02.jpg/1024px-Propithecus_coquereli_02.jpg" alt="sifaka picture from wikipedia" style="height:240px;"/>
 
-```
-A sifaka is a lemur of the genus Propithecus from the family Indriidae within the order Primates. The name of their family is an onomatopoeia of their characteristic "shi-fak" alarm call.
-```
+*A sifaka is a lemur of the genus Propithecus from the family Indriidae within the order Primates. The name of their family is an onomatopoeia of their characteristic "shi-fak" alarm call.*
 
 Source: Wikipedia: [https://en.wikipedia.org/wiki/Sifaka](https://en.wikipedia.org/wiki/Sifaka)
 
