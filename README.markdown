@@ -18,11 +18,11 @@ Source: Wikipedia: [https://en.wikipedia.org/wiki/Sifaka](https://en.wikipedia.o
 
 Command you can use
 
-* check - standalone command to check cert expiration date from --url= url or --file= file
-* add - checks cert and adds it to sifaka database for tracking
-* list - lists all certs in database with expirations in CSV format
-* remove - removes by --id= (from list) cert from sifaka database
-* server - runs the app server, periodic checks and notifications and hosts on --port= simple website that lists the certificates
+* `sifaka check` - standalone command to check cert expiration date from --url= url or --file= file
+* `sifaka add` - checks cert and adds it to sifaka database for tracking
+* `sifaka list` - lists all certs in database with expirations in CSV format
+* `sifaka remove` - removes by --id= (from list) cert from sifaka database
+* `sifaka server` - runs the app server, periodic checks and notifications and hosts on --port= simple website that lists the certificates
 
 #### Example
 
