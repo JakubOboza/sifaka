@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Expires In</th>
+            <th scope="col">Not After</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          {{range $certInfo := .CertsDisplayData}}
+          <tr>
+            <td>
+              {{ $certInfo.Name }}
+            </td>
+            <td>
+              {{ $certInfo.Type }}
+            </td>
+            <td>
+              {{ $certInfo.ExpiresIn }}
+            </td>
+            <td>
+              {{ $certInfo.NotAfter }}
+            </td>
+            <td>
+              <button type="button" class="btn btn-{{ $certInfo.Button }}" disabled>
+                {{ $certInfo.Status }}
+              </button>
+            </td>
+          </tr>
+          {{end}}
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
