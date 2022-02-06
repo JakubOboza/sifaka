@@ -136,8 +136,3 @@ func (repo *SqliteRepository) AllWCertsThatExpireSoon() ([]CertificateData, erro
 
 	return certs, nil
 }
-
-// utils refactor
-func expireDate() time.Time {
-	return time.Now().Add(50 * 24 * time.Hour)
-}

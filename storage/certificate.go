@@ -84,8 +84,20 @@ func buttonColor(t time.Time) string {
 	timeDiff := t.Sub(time.Now())
 	if timeDiff < 0 {
 		return "danger"
-	} else if timeDiff < 30*24*time.Hour {
+	} else if timeDiff < expireHours() {
 		return "warning"
 	}
 	return "success"
+}
+
+//TODO refactor this!
+// Probably should be in config
+
+// utils refactor
+func expireDate() time.Time {
+	return time.Now().Add(expireHours())
+}
+
+func expireHours() time.Duration {
+	return 29 * 24 * time.Hour
 }
