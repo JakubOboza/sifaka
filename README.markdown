@@ -16,6 +16,8 @@ Source: Wikipedia: [https://en.wikipedia.org/wiki/Sifaka](https://en.wikipedia.o
 
 # Usage
 
+**!important** If you plan use any command other than `check` before sure `data` directory exists and run at least once `sifaka server` it will create database file and run all migrations.
+
 Command you can use
 
 * `sifaka check` - standalone command to check cert expiration date from --url= url or --file= file
