@@ -2,6 +2,9 @@
 
 Sifaka is a tool to monitor your x509 certificates or simply websites certificates expirey date.
 
+If your organisation is handling some certs renewal in non automatic way, you use calendars and simply forget to request new cert from time to time. 
+It can be a pain. With sifaka you just point it to your https web page or public cert in a file and it will notify you 29 days before it expires.
+
 Sifaka interface is mostly CLI but it also runs a server than cant notify you via Slack (version v0.0.1).
 
 It will notify You 29 days before certificate will expire. (It will repeat notifications every 4 hours until you fix it ;) )
