@@ -56,7 +56,15 @@ to remove cert from db via id
 ```
 ./bin/sifaka remove --id=69420
 ```
+#### Slack Notifications
 
+To configure slack notifications You will need `SLACK OATH` token and `CHANNEL ID`.
+
+This info is configured via environment variables when you start `server` eg.
+
+```
+SLACK_OAUTH_TOKEN="xoxb-66667777saf..."  SLACK_CHANNEL_ID="C013..." ./bin/sifaka server
+```
 
 # Install
 
